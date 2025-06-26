@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://laptop-comparison.onrender.com/',
+        target: 'https://laptop-comparison.onrender.com',
         changeOrigin: true,
         secure: false,
       },
